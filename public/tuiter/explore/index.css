@@ -1,0 +1,97 @@
+.wd-bg {
+    background-color: black;
+    border-color: rgb(47,51,54);
+    border-style: solid;
+}
+.wd-margin-left {
+    margin-left: 16px;
+}
+.wd-p-gray-font{
+    color:white;
+    font-size:17px;
+    font-weight: bold;
+}
+.wd-blankspace {
+    margin-top: 19px;
+    background-color: #262A36FF;
+    width: 100%;
+}
+.wd-select {
+    color: rgb(29,161,242);
+    border-bottom-color: rgb(2,161,242);
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.wd-search-box {
+    margin-top: 20px;
+    border-radius: 25px;
+    height: 40px;
+    background-color: darkgrey;
+    width: 90%;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-weight: lighter;
+}
+.wd-rel {
+    position: relative;
+}
+.wd-settings {
+    margin-top: 30px;
+    margin-right: 12px;
+    position: relative;
+    float: right;
+}
+.wd-hyperlinks {
+    text-align: center;
+    width: 10%;
+    color: darkgrey;
+    float: left;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(110,118,125);
+}
+a.wd-back-color {
+    color : white;
+}
+.wd-padding-top{
+    padding-top: 12px;
+    /*padding-left: 16px;*/
+}
+.wd-p-gray{
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+.wd-p-white{
+    font-size: 13px;
+    color:white;
+}
+.wd-author-img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    height: 100px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 10px;
+}rp
+.wd-image-margin-right {
+    margin-right: 16px;
+}
+.wd-hr-border {
+    border: 1px solid gray;
+    border-width: 0.5px;
+}
+.wd-p-lightgray{
+    font-size: 13px;
+    color:lightgray;
+}
+.fa-gear {
+    color: #1DA1F2;
+}
+.fa-user-check {
+    color: #1DA1F2;
+}
