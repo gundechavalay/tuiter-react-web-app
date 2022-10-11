@@ -1,97 +1,139 @@
-.wd-bg {
-    background-color: black;
-    border-color: rgb(47,51,54);
-    border-style: solid;
+.wd-text-centre {
+    text-align: center;
 }
 .wd-margin-left {
     margin-left: 16px;
 }
-.wd-p-gray-font{
-    color:white;
-    font-size:17px;
-    font-weight: bold;
+.fa-gear {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #0d6efd;
 }
-.wd-blankspace {
-    margin-top: 19px;
-    background-color: #262A36FF;
+.wd-margin-top {
+    margin-top: 10px;
+}
+.list-group-item {
+    font-size: small;
+}
+.wd-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.wd-top-tuit {
+    background-size: cover;
+    background-image: url("spacexstarship.webp");
+}
+.wd-navigation-tabs {
+    font-size: small;
+}
+.wd-round-button {
+    margin-top: 5px;
+    background-color: #0d6efd;
+    text-align: center;
+    font-size: small;
+    color: white;
+    border-radius: 50px;
+    border: #0d6efd;
+    width: 100%;
+    height: 40px;
+}
+.wd-top-headline {
+    float: left;
+    color: rgb(49, 48, 48);
+    position: relative;
+    padding-top: 345px;
+}
+.wd-header {
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    padding-right: 55px;
+}
+.wd-content-header {
+    float: left;
+    color: rgb(113, 118, 123);
+    font-size: small;
+    text-align: left;
+}
+.wd-search-bar {
+    border-radius: 50px;
+    height: 50px;
+    background-color: rgba(231, 233, 234, 0.1);
+    color: lightgray;
+    padding: 0px;
+    border-width: 2px;
+    border-color: black;
+    font-size: small;
+    float: left;
     width: 100%;
 }
-.wd-select {
-    color: rgb(29,161,242);
-    border-bottom-color: rgb(2,161,242);
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
-}
-.wd-search-box {
-    margin-top: 20px;
-    border-radius: 25px;
-    height: 40px;
-    background-color: darkgrey;
-    width: 90%;
-}
-::placeholder {
-    color: white;
-    opacity: 1;
-    font-weight: lighter;
-}
-.wd-rel {
-    position: relative;
-}
-.wd-settings {
-    margin-top: 30px;
-    margin-right: 12px;
-    position: relative;
-    float: right;
-}
-.wd-hyperlinks {
-    text-align: center;
-    width: 10%;
-    color: darkgrey;
-    float: left;
-    padding: 16px;
-    font-size: 15px;
+.wd-header2 {
+    font-size: 13px;
     font-weight: bold;
-    color: rgb(110,118,125);
+    float: left;
+    padding-right: 15px;
 }
-a.wd-back-color {
-    color : white;
+.wd-update-bg {
+    background-color: rgba(231, 233, 234, 0.0001);
+    color: white;
 }
-.wd-padding-top{
-    padding-top: 12px;
-    /*padding-left: 16px;*/
-}
-.wd-p-gray{
-    color:rgb(110, 118, 125);
-    font-size:13px;
-}
-.wd-p-white{
+.wd-title-tag {
     font-size: 13px;
-    color:white;
+    font-weight: normal;
+    color: rgb(113, 118, 123);
+    float: left;
 }
-.wd-author-img{
-    width: 100px;
-    height: 100px;
-    float: right;
-    height: 100px;
+.wd-sidebar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 0px;
+    float: left;
 }
-.wd-rounded-corners-all-around {
+.wd-tuit-content {
+    float: left;
+}
+.wd-irregular-width {
+    height: 20px;
+}
+.wd-content-title {
+    float: left;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+    height: 8px;
+}
+.text-content {
+    float: left;
+    font-weight: bold;
+    font-size: small;
+    text-align: left;
+}
+.wd-image {
+    width: 90px;
+    height: 80px;
     border-radius: 10px;
-}rp
-.wd-image-margin-right {
-    margin-right: 16px;
+    float: right;
 }
-.wd-hr-border {
-    border: 1px solid gray;
-    border-width: 0.5px;
+.background {
+    background-color: black;
+    color: white;
 }
-.wd-p-lightgray{
-    font-size: 13px;
-    color:lightgray;
+.wd-border-style {
+    border-bottom-color: rgb(113, 118, 123);
+    border-radius: 15px;
+    border-width: 0px;
 }
-.fa-gear {
-    color: #1DA1F2;
+.fa-solid {
+    color: white;
 }
-.fa-user-check {
-    color: #1DA1F2;
+.wd-bg-tabs {
+    background-color: rgba(231, 233, 234, 0.1);
+    border-width: 0px;
+    color: white;
+    border-radius: 20px;
+}
+input:focus {
+    outline-color: black;
+    border-color: inherit;
 }
