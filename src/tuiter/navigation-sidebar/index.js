@@ -102,19 +102,19 @@ const NavigationSidebar = () => {
         </div>
      </div>
      </a> 
-     <a className={`list-group-item
+     <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
      <div className="grid">
         <div className="row">                    
             <div className="col col-md-1" style={floatLeft}>
-                <i className="fa-solid fa-user"></i>
+                <i className="fa-solid fa-hashtag"></i>
             </div>
             <div className="col d-none d-sm-none d-md-none d-lg-none d-xl-block d-xxl-block" style={floatLeft}>
                 Profile
             </div>
         </div>
      </div>
-     </a>
+     </Link>
      <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
      <div className="grid">
