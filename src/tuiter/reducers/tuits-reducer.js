@@ -70,7 +70,6 @@ const tuitsSlice = createSlice({
      state.unshift({
        ...action.payload,
        ...templateTuit,
-       _id: (new Date()).getTime(),
      })
    },
     deleteTuit(state, action) {
@@ -94,6 +93,4 @@ const tuitsSlice = createSlice({
  }
 });
 
-export const {createTuit, deleteTuit, likeTuit} = tuitsSlice.actions;
-// export const {findTuitsThunk, deleteTuitThunk, updateTuitThunk} = tuitsSlice.actions;
 export default tuitsSlice.reducer;
